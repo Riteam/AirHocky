@@ -2,7 +2,7 @@
 var express = require("express")
 var app = express()
 var server = app.listen(80);
-//神TM代码
+//sec
 var io = require('socket.io').listen(server)
 
 app.set('view engine','ejs')
